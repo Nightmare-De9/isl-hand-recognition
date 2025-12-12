@@ -72,12 +72,3 @@ The team collaboratively worked on **recording ISL videos, wireframing the app, 
 
 ## 📜 License  
 Open for educational use. Please give credit if you use or modify this project.
-
----
-
-## ❤️ Acknowledgements  
-- MediaPipe by Google  
-- TensorFlow & TensorFlow.js  
-- ISL resources used for reference
-
-Do you want me to do that?
