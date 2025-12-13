@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>ISL Alphabet Recognition</title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 
   <!-- TensorFlow.js -->
   <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.14.0"></script>
@@ -14,24 +15,23 @@
   <!-- MediaPipe Hands -->
   <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
-
 </head>
+
 <body>
   <header>
-    <h1>ISL Alphabet Recognition</h1>
-    <p>Class 11 AI Project Prototype</p>
+    <h1>ISL Alphabet & Number Recognition</h1>
+    <p>Class 11 Artificial Intelligence Project (Prototype)</p>
   </header>
 
   <main>
-    <!-- Webcam Feed -->
-    <div class="video-container">
+    <div class="camera-container">
       <video id="video" autoplay playsinline></video>
       <canvas id="canvas"></canvas>
     </div>
 
-    <!-- Detected Letter -->
-    <div id="output">
-      <h2>Detected Letter: <span id="letter">None</span></h2>
+    <div class="output-box">
+      <h2>Detected Symbol</h2>
+      <div id="letter">None</div>
     </div>
   </main>
 
@@ -39,7 +39,7 @@
     <p>Team: VISHWAJITH, DRISHTI, SAUMYA, MANYA</p>
   </footer>
 
-  <!-- JS -->
+  <!-- Main Script -->
   <script src="script.js"></script>
 </body>
 </html>
